@@ -104,7 +104,7 @@ import {NotificationsService} from '../services/notifications.service';
 
         .simple-notification .sn-title {
             margin: 0;
-            padding: 0 50px 0 0;
+            padding: 0;
             line-height: 30px;
             font-size: 20px;
         }
@@ -112,7 +112,7 @@ import {NotificationsService} from '../services/notifications.service';
         .simple-notification .sn-content {
             margin: 0;
             font-size: 16px;
-            padding: 0 50px 0 0;
+            padding: 0;
             line-height: 20px;
         }
 
