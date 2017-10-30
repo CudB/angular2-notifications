@@ -68,7 +68,7 @@ export class SimpleNotificationsComponent implements OnInit, OnDestroy {
     public pauseOnHover = true;
     public theClass = '';
     public rtl = false;
-    public animate: 'fromRight' | 'fromLeft' | 'rotate' | 'scale' = 'fromRight';
+    public animate: 'fromBottom'| 'fromRight' | 'fromLeft' | 'rotate' | 'scale' = 'fromRight';
 
     constructor(private _service: NotificationsService) {}
 
