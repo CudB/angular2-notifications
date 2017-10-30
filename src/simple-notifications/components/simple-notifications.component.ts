@@ -32,10 +32,10 @@ import {NotificationsService} from '../services/notifications.service';
             z-index: 1000;
         }
         
-        .simple-notification-wrapper.left { left: 20px; }
-        .simple-notification-wrapper.top { top: 20px; }
-        .simple-notification-wrapper.right { right: 20px; }
-        .simple-notification-wrapper.bottom { bottom: 20px; }
+        .simple-notification-wrapper.left { left: 0; }
+        .simple-notification-wrapper.top { top: 0; }
+        .simple-notification-wrapper.right { right: 0; }
+        .simple-notification-wrapper.bottom { bottom: 0; }
     `]
 })
 
