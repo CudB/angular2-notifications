@@ -28,7 +28,7 @@ import {NotificationsService} from '../services/notifications.service';
     styles: [`
         .simple-notification-wrapper {
             position: fixed;
-            width: 300px;
+            width: 100%;
             z-index: 1000;
         }
         
