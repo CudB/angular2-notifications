@@ -181,7 +181,7 @@ import {NotificationsService} from '../services/notifications.service';
             height: 100%;
         }
 
-        .simple-notification.success .sn-progress-loader span { background: #689F38; }
+        .simple-notification.success .sn-progress-loader span { background: #339933; }
         .simple-notification.error .sn-progress-loader span { background: #D32F2F; }
         .simple-notification.alert .sn-progress-loader span { background: #edc242; }
         .simple-notification.info .sn-progress-loader span { background: #0288D1; }
