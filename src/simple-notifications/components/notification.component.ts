@@ -10,6 +10,18 @@ import {NotificationsService} from '../services/notifications.service';
     animations: [
         trigger('enterLeave', [
 
+            // Enter from bottom
+            state('fromBottom', style({opacity: 1, transform: 'translateY(0)'})),
+            transition('* => fromBottom', [
+                style({opacity: 0, transform: 'translateY(5%)'}),
+                animate('400ms ease-in-out')
+            ]),
+            state('fromBottomOut', style({opacity: 0, transform: 'translateY(-5%)'})),
+            transition('fromBottom => fromBottomOut', [
+                style({opacity: 1, transform: 'translateY(0)'}),
+                animate('300ms ease-in-out')
+            ]),
+
             // Enter from right
             state('fromRight', style({opacity: 1, transform: 'translateX(0)'})),
             transition('* => fromRight', [
