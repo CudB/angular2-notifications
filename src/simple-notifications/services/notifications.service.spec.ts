@@ -26,7 +26,7 @@ describe('NotificationsService', () => {
         pauseOnHover: true,
         theClass: 'initial',
         rtl: false,
-        animate: 'fromRight',
+        animate: 'fromBottom',
         createdOn: new Date(),
         destroyedOn: new Date()
     };
