@@ -95,11 +95,9 @@ import {NotificationsService} from '../services/notifications.service';
     styles: [`
         .simple-notification {
             width: 100%;
-            padding: 10px 20px;
             box-sizing: border-box;
             position: relative;
             float: left;
-            margin-bottom: 10px;
             color: #fff;
             cursor: pointer;
             transition: all 0.5s;

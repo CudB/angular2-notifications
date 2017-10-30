@@ -31,19 +31,6 @@ import {NotificationsService} from '../services/notifications.service';
             width: 100%;
             z-index: 1000;
         }
-        
-        .simple-notification-wrapper.left { left: 20px; }
-        .simple-notification-wrapper.top { top: 20px; }
-        .simple-notification-wrapper.right { right: 20px; }
-        .simple-notification-wrapper.bottom { bottom: 20px; }
-        
-        @media (max-width: 340px) {
-            .simple-notification-wrapper {
-                width: auto;
-                left: 20px;
-                right: 20px;
-            }
-        }
     `]
 })
 
