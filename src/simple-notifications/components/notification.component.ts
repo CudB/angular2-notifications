@@ -13,10 +13,10 @@ import {NotificationsService} from '../services/notifications.service';
             // Enter from bottom
             state('fromBottom', style({opacity: 1, transform: 'translateY(0)'})),
             transition('* => fromBottom', [
-                style({opacity: 0, transform: 'translateY(5%)'}),
+                style({opacity: 0, transform: 'translateY(100%)'}),
                 animate('400ms ease-in-out')
             ]),
-            state('fromBottomOut', style({opacity: 0, transform: 'translateY(-5%)'})),
+            state('fromBottomOut', style({opacity: 0, transform: 'translateY(-100%)'})),
             transition('fromBottom => fromBottomOut', [
                 style({opacity: 1, transform: 'translateY(0)'}),
                 animate('300ms ease-in-out')
