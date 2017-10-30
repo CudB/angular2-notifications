@@ -103,6 +103,7 @@ import {NotificationsService} from '../services/notifications.service';
             color: #fff;
             cursor: pointer;
             transition: all 0.5s;
+            border-radius: 4px;
         }
 
         .simple-notification .sn-title {
