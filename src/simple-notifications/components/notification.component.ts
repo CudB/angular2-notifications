@@ -114,6 +114,7 @@ import {NotificationsService} from '../services/notifications.service';
             font-size: 16px;
             padding: 0;
             line-height: 20px;
+            text-align: center;
         }
 
         .simple-notification .icon {
