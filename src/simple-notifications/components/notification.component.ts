@@ -163,7 +163,7 @@ import {NotificationsService} from '../services/notifications.service';
         }
 
         .simple-notification.error { background: #F44336; }
-        .simple-notification.success { background: #8BC34A; }
+        .simple-notification.success { background: #339933; }
         .simple-notification.alert { background: #ffdb5b; }
         .simple-notification.info { background: #03A9F4; }
         .simple-notification.warn { background: #ffdb5b; }
@@ -181,7 +181,7 @@ import {NotificationsService} from '../services/notifications.service';
             height: 100%;
         }
 
-        .simple-notification.success .sn-progress-loader span { background: #339933; }
+        .simple-notification.success .sn-progress-loader span { background: #689F38; }
         .simple-notification.error .sn-progress-loader span { background: #D32F2F; }
         .simple-notification.alert .sn-progress-loader span { background: #edc242; }
         .simple-notification.info .sn-progress-loader span { background: #0288D1; }
