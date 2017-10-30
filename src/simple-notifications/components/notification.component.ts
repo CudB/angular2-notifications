@@ -16,7 +16,7 @@ import {NotificationsService} from '../services/notifications.service';
                 style({opacity: 0, transform: 'translateY(100%)'}),
                 animate('400ms ease-in-out')
             ]),
-            state('fromBottomOut', style({opacity: 0, transform: 'translateY(-100%)'})),
+            state('fromBottomOut', style({opacity: 0, transform: 'translateY(100%)'})),
             transition('fromBottom => fromBottomOut', [
                 style({opacity: 1, transform: 'translateY(0)'}),
                 animate('300ms ease-in-out')
